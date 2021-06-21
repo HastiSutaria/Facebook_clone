@@ -8,6 +8,7 @@ function Feed() {
             {/* storyreel*/}
             <StoryReel />
            {/* message sender */}
+           <MessageSender />
 
         </div>
     )
