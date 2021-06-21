@@ -1,7 +1,13 @@
 .App {
   text-align: left;
 }
-
+.app {
+  background-color: #f1f2f5;
+  height: 100vh;
+}
+.app__body {
+  display: flex;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
