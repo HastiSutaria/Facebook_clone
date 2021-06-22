@@ -5,7 +5,7 @@
     background-color: white;
     border-radius: 15px;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
-    width: 59%;
+    width: 100%;
 }
 .messageSender__top {
     display: flex;
@@ -46,4 +46,13 @@
     align-items: center;
     color: gray;
     margin: 5px;
+}
+.messageSender__option > h3 {
+    font-size: medium;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.messageSender__option:hover{
+    background-color: #eff2f5;
+    border-radius: 20px;
 }
