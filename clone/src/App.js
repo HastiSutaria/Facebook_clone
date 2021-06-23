@@ -5,9 +5,10 @@ import Sidebar from "./Sidebar";
 import Feed from "./Feed";
 import Widgets from "./Widgets";
 import Login from "./Login";
+import { useStateValue } from "./StateProvider";
 
 function App() {
-  const user=null;
+  const { user } = useStateValue()[0]
 
   return (
     <div className="App">
@@ -21,7 +22,6 @@ function App() {
             <Sidebar />  
             <Feed />
             <Widgets />
-
 
           </div>  
         </>
