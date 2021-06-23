@@ -6,6 +6,7 @@ function Widgets() {
         <div className="widgets">
             <iframe 
                src="https://www.linkedin.com/embed/feed/update/urn:li:share:6813153176074665985"
+               title="Ad"
                width="340px"
                height="943px"
                style={{ border: "none", overflow: 'hidden'}}
