@@ -39,7 +39,7 @@
 }
 
 .post_image > img{
-    width: 59%;
+    width: 100%;
 }
 .post_options {
     border-top: 1px solid lightgray;
